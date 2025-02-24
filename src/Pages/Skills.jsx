@@ -1,7 +1,12 @@
 import React from "react";
+import transition from "../transition";
 
 const Skills = () => {
-  return <div>Skills</div>;
+  return (
+    <div>
+      <h1>Skills</h1>
+    </div>
+  );
 };
 
-export default Skills;
+export default transition(Skills);

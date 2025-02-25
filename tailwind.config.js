@@ -28,7 +28,13 @@ export default {
         "2xl": "6rem",
       },
     },
-    extend: {},
+    extend: {
+      rotate: {
+        "x-45": "rotateX(45deg)",
+        "x-90": "rotateX(90deg)",
+        "-x-90": "rotateX(90deg)",
+      },
+    },
   },
   plugins: [],
 };

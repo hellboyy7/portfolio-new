@@ -7,14 +7,15 @@ const Nav = () => {
     initial: {
       opacity: 0,
       rotateX: 90,
-      translateX: -20,
       translateY: 80,
+      translateX: -20,
     },
     enter: (i) => ({
       opacity: 1,
       rotateX: 0,
-      translateX: 0,
+
       translateY: 0,
+      translateX: 0,
       transition: {
         duration: 0.65,
         delay: 0.3 + i * 0.1,
